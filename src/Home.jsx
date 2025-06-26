@@ -75,8 +75,8 @@ const members = [
   }
 
   useEffect(() => {
-    fetchCars();
-    fetchFruits();
+   // fetchCars();
+    //fetchFruits();
   }, [])
 
     return (
