@@ -70,24 +70,6 @@ const members = [
     }
   }
 
-  
-/*
-  const fetchAll = async() => {
-    try {
-      setLoading(true)
-
-      await fetchCars();
-      await fetchFruits();
-
-    } catch (error) {
-      console.log('ERROR Loading initial data: ', error);
-      setError('Error loading data')
-    }finally{
-      setLoading(false)
-    }
-  }
-  */
-
   useEffect(() => {
     //fetchCars();
           fetchFruits();
