@@ -67,7 +67,7 @@ const members = [
       setError('An error occurred while fetching fruits data')
     }
   }
-
+/*
   const fetchAll = async() => {
     try {
       setLoading(true)
@@ -82,9 +82,10 @@ const members = [
       setLoading(false)
     }
   }
+  */
 
   useEffect(() => {
-    fetchAll();
+    fetchCars();
   }, [])
 
     return (
