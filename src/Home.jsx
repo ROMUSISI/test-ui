@@ -94,8 +94,8 @@ const members = [
   }, [])
 
 useEffect(() => {
-    console.log(cars)
-}, [cars])
+    console.log('fruits array:', fruits)
+}, [fruits])
 
     return (
       <div>{
