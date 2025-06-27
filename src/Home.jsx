@@ -93,6 +93,10 @@ const members = [
           fetchFruits();
   }, [])
 
+useEffect(() => {
+    console.log(cars)
+}, [cars])
+
     return (
       <div>{
       loading ? <div>Loading ...</div> : error ? <div>An error occured while fetching cars</div>:
