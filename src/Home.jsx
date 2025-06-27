@@ -56,7 +56,7 @@ const members = [
 
   */
 
-  get fruits from the database
+  //get fruits from the database
   const fetchFruits = async() => {
     try {
       const response = await axios.get(getBaseUrl()+'/fruits')
